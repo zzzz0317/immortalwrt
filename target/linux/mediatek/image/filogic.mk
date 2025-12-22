@@ -1517,7 +1517,7 @@ define Device/hiveton_h5000m
   DEVICE_MODEL := H5000M
   DEVICE_DTS := mt7987a-hiveton-h5000m
   DEVICE_DTS_DIR := ../dts
-  DEVICE_PACKAGES := kmod-hwmon-pwmfan kmod-usb3 mt7987-2p5g-phy-firmware mt7988-wo-firmware kmod-mt7996e kmod-mt7992-23-firmware
+  DEVICE_PACKAGES := kmod-hwmon-pwmfan kmod-usb3 mt7987-2p5g-phy-firmware mt7988-wo-firmware kmod-mt7996e kmod-mt7992-23-firmware f2fsck mkf2fs automount
   KERNEL_LOADADDR := 0x40080000
   SUPPORTED_DEVICES += hiveton,h5000m
   IMAGE/sysupgrade.bin := sysupgrade-tar | append-metadata
